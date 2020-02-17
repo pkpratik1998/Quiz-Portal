@@ -1,0 +1,206 @@
+@font-face {
+font-family: "source-sans";
+src: url("fonts/SourceSansLight.otf");
+}
+
+@font-face {
+font-family: "source-sans-dark";
+src: url("fonts/SourceSansPro-Semibold.otf");
+}
+body
+{
+	overflow:hidden;
+	margin:0px;
+	padding:0px;
+	background: #000;
+}
+.container
+{
+	width: 100%;
+	margin: auto;
+}
+#cont
+{
+	opacity: 0.1;
+	transition: all 1.5s ease-out;
+}
+
+.bd
+{
+	position: absolute;
+	z-index: -5;
+}
+.logod
+{
+	position:fixed;
+	text-align: left;
+	top:0px;
+	left:80px;
+	height:50px;
+	width:215px;
+	z-index:100;
+	-webkit-box-shadow: 0 0px 7px -5px #777;
+	-moz-box-shadow: 0 0px 7px -5px #777;
+	box-shadow: 0 0px 7px -5px #777;
+	background: #ccc;
+}
+
+.logd
+{
+	position:absolute;
+	text-align: center;
+	width:32%;
+	background:#ffffff;
+	opacity:0.9;
+	left: 34%;
+	z-index:-1;
+	margin:auto;
+	-webkit-box-shadow: 0 0px 6px -2px #000;
+	-moz-box-shadow: 0 0px 6px -2px #000;
+	box-shadow: 0 0px 6px -2px #000;
+}
+#logind
+{
+	top:110px;
+	height:90px;
+	transition: all 1.5s ease;
+}
+
+#signupd
+{
+	top:210px;
+	height:380px;
+	transition: all 1.5s ease;
+}
+#logo
+{
+	position:absolute;
+	text-align:center;
+	top:20px;
+	left:42.5%;
+	height:200px;
+	width:15%;
+	margin:auto;
+	z-index:10000;
+}
+.up
+{
+	position: absolute;
+	font-size:24px;
+	color:#9296af;
+	z-index:10000;
+	float: left;
+	margin-left: 35.5%;
+}
+.up1
+{
+	position: absolute;
+	font-size:24px;
+	color:#9296af;
+	z-index:10000;
+	float: left;
+	margin-left: 62.5%;
+}
+.up1:hover
+{
+	color:#2b2c33;
+}
+
+.vld
+{
+	position: absolute;
+	text-align:center;
+	float: left;
+	margin-left:35%;
+	top: 360px;
+	font-size:15px;
+	color:#ff0000;
+	z-index:10000;
+	font-family: source-sans-dark;
+	font-weight:"100";
+}
+#fp
+{
+	position: absolute;
+	text-align:center;
+	float: left;
+	left:57%;
+	top: 355px;
+	font-size:15px;
+	color:#2b2c33;
+	z-index:10000;
+	font-family: source-sans-dark;
+	font-weight:"100";
+}
+.txt
+{
+	position: absolute;
+	text-align: center;
+	height:40px;
+	width:29.8%;
+	float: left;
+	background:none;
+	border: none;
+	border-bottom: thin solid #9296af;
+	color:#2b2c33;
+	font-size: 20px;
+	font-family:  "source-sans";
+	outline: none;
+	z-index: 10000;
+	margin-left: 35%;
+}
+.txt:focus
+{
+	border-bottom: thin solid #2b2c33;
+	color:#274d99;
+}
+.logbut
+{
+	text-align: center;
+	position: absolute;
+	font-size:24px;
+	height:60px;
+	float: left;
+	top:125px;
+	color:#fff;
+	width:30%;
+	font-family: "source-sans-dark";
+	border: none;
+	transition:all 1.5s ease;
+	background: #274d99;
+	z-index: 10000;
+	-webkit-box-shadow: 0 0px 7px -1px #777;
+	-moz-box-shadow: 0 0px 7px -1px #777;
+	box-shadow: 0 0px 7px -1px #777;
+	margin-left: 35%;
+}
+.logbut:hover
+{
+	color:#fff;
+	background:#4079ed;
+}
+.logbut2
+{
+	text-align: center;
+	position: absolute;
+	font-size:24px;
+	height:60px;
+	float: left;
+	top:515px;
+	color:#274d99;
+	width:30%;
+	font-family: "source-sans-dark";
+	border: none;
+	transition:all 1.5s ease;
+	background:#fff ;
+	z-index: 10000;
+	-webkit-box-shadow: 0 0px 7px -1px #777;
+	-moz-box-shadow: 0 0px 7px -1px #777;
+	box-shadow: 0 0px 7px -1px #777;
+	margin-left: 35%;
+}
+.logbut2:hover
+{
+	color:#fff;
+	background:#4079ed;
+}

@@ -1,0 +1,96 @@
+body
+{
+  background: #f4f8ff;
+}
+header
+{
+  background: #d9e7fd;
+  border-bottom: 1px solid #ccc;
+  color: #063d95;
+}
+.container
+{
+  width: 60%;
+  margin: auto;
+  padding: 10px;
+}
+.container2
+{
+  width: 60%;
+  margin: auto;
+}
+.containerf
+{
+  width: 60%;
+  margin: auto;
+  padding: 10px;
+}
+footer
+{
+  border-top :solid 1px #ccc;
+  color: #777;
+  height: 40px;
+  background: #d9e7fd;
+  position: fixed;
+  bottom: 0px;
+  width: 100%;
+}
+h4
+{
+  width: 100%;
+  background: #d9e7fd ;
+  border:solid 1px #ccc;
+  padding: 15px;
+  border-radius: 5px;
+  color: #063d95;
+}
+input{
+  margin-left: 50px;
+}
+
+.but
+{
+  position: fixed;
+  top:550px;
+  left:230px;
+  background: #063d95;
+  color: #fff;
+  border:solid 1px #ccc;
+  padding: 10px;
+  border-radius: 7px;
+  transition: all 0.4s ease;
+  width: 15%;
+  font-size: 18px;
+}
+.but:hover
+{
+  background: #669ef9;
+}
+
+input[type="radio"] {
+  -ms-transform: scale(1.3); /* IE 9 */
+  -webkit-transform: scale(1.3); /* Chrome, Safari, Opera */
+  transform: scale(1.3);
+}
+
+.rdi:hover input[type="radio"] {
+  -ms-transform: scale(1.8); /* IE 9 */
+  -webkit-transform: scale(1.8); /* Chrome, Safari, Opera */
+  transform: scale(1.8);
+  opacity: 0.6;
+  outline: none;
+}
+
+.rdi
+{
+  margin-left: 10px;
+  color: #063d95;
+  width: 100%;
+  cursor: default;
+  font-size: 16px;
+}
+
+.rdi:hover
+{
+  opacity: 0.7;
+}
