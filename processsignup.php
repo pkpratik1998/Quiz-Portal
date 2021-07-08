@@ -26,7 +26,7 @@
     else
     {
       $err2 = "signup failure try again";
-      header("location:signup.php?err2=".$err2);
+      header("location:index.php?err2=".$err2);
     }
 
     $sql = "INSERT INTO users (uname, password, phone, name) VALUES ( '" . $uemail . "', '" . $ucpass . "'," . $phone . ", '" . $name . "')";
@@ -38,12 +38,12 @@
     {
         $err2 = "<span style='color:green'>Signed up successfully Please login and proceed for quiz</span>";
         $mysqli->close();
-        header("location:signup.php?err2=".$err2);
+        header("location:index.php?err2=".$err2);
     }
     else
     {
         $err2 = "Error while signing up try again";
-        header("location:signup.php?err2=".$err2);
+        header("location:index.php?err2=".$err2);
         $mysqli->close();
     }
 
